@@ -1,0 +1,19 @@
+{"at":1791631034427,"userId":null,"username":"-","role":"-","action":"SERVER_START","details":"Port 5000"}
+{"at":1791631103496,"userId":2,"username":"mijoz","role":"user","action":"LOGIN","details":"Tizimga kirdi"}
+{"at":1791631162961,"userId":2,"username":"mijoz","role":"user","action":"PASSWORD_CHANGE","details":"Parolni o'zgartirdi"}
+{"at":1791631171169,"userId":2,"username":"mijoz","role":"user","action":"PASSWORD_CHANGE","details":"Parolni o'zgartirdi"}
+{"at":1791631486763,"userId":null,"username":"-","role":"-","action":"SERVER_START","details":"Port 5000"}
+{"at":1791631726814,"userId":2,"username":"mijoz","role":"user","action":"ORDER_CREATE","details":"B-0001: 334600 so'm, 1 xil mahsulot, kassaga +334600"}
+{"at":1791631803057,"userId":2,"username":"mijoz","role":"user","action":"ORDER_CREATE","details":"B-0002: 55000 so'm, 1 xil mahsulot, kassaga +55000"}
+{"at":1791631847541,"userId":1,"username":"admin","role":"admin","action":"LOGIN","details":"Tizimga kirdi"}
+{"at":1791631914764,"userId":1,"username":"admin","role":"admin","action":"RESTOCK_ORDER","details":"T-0001: 5 litr Parket laki x10 banka = 1100000 so'm, kassadan -1100000"}
+{"at":1791631968922,"userId":1,"username":"admin","role":"admin","action":"RESTOCK_ORDER","details":"T-0002: 10 litr Gruntovka x20 kanistra = 1400000 so'm, kassadan -1400000"}
+{"at":1791631987700,"userId":1,"username":"admin","role":"admin","action":"RESTOCK_RECEIVE","details":"T-0002: 10 litr Gruntovka x20 omborga qabul qilindi"}
+{"at":1791632313835,"userId":null,"username":"-","role":"-","action":"SERVER_START","details":"Port 5000"}
+{"at":1791632962844,"userId":1,"username":"admin","role":"admin","action":"PRODUCT_ARCHIVE","details":"25 kg Eleron Qorishmasi"}
+{"at":1791632969291,"userId":1,"username":"admin","role":"admin","action":"PRODUCT_RESTORE","details":"25 kg Eleron Qorishmasi"}
+{"at":1791633010824,"userId":2,"username":"mijoz","role":"user","action":"LOGIN","details":"Tizimga kirdi"}
+{"at":1791633053095,"userId":1,"username":"admin","role":"admin","action":"LOGIN","details":"Tizimga kirdi"}
+{"at":1791633111983,"userId":1,"username":"admin","role":"admin","action":"PRODUCT_CREATE","details":"25 kg RoteBond - 40000 so'm"}
+{"at":1791633160566,"userId":1,"username":"admin","role":"admin","action":"PRODUCT_UPDATE","details":"25 kg RoteBond narx:40000 ombor:7 -> 25 kg RoteBond narx:40000 ombor:7"}
+{"at":1791633174129,"userId":1,"username":"admin","role":"admin","action":"RESTOCK_ORDER","details":"T-0003: 25 kg RoteBond x10 qop = 280000 so'm, kassadan -280000"}

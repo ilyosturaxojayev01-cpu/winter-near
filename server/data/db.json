@@ -1,0 +1,436 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrator",
+      "username": "admin",
+      "phone": "",
+      "role": "admin",
+      "password": "d8e54ee542fafe4eab3003ef063bd7ff:9efe467d6db5e801ab8030113f01966bb93f824ffaada0999150f5fe959ee6eaf544b359901adf292653e561b7a2f2240be7f6db4277dc81cac832b69fac2626",
+      "blocked": false,
+      "createdAt": 1791631034291
+    },
+    {
+      "id": 2,
+      "name": "Demo Mijoz",
+      "username": "mijoz",
+      "phone": "+998901234567",
+      "role": "user",
+      "password": "6a44b3911b4a93569c0026aa80784369:f019b4b6e13770b755896e1fa3b483e567637c2b056efff9afe74b98e2f1fd4bcdd1e7edab44d962fd621798b43a91a9cca8e3d374a7b79919f39031750e57ae",
+      "blocked": false,
+      "createdAt": 1791631034291
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "active": true,
+      "soldCount": 0,
+      "createdAt": 1791631034291,
+      "name": "Eleron Qorishmasi",
+      "category": "Quruq qorishmalar",
+      "unit": "kg",
+      "packSize": 25,
+      "packLabel": "qop",
+      "price": 40000,
+      "restockCost": 30000,
+      "stock": 40,
+      "minStock": 10,
+      "leadHours": 3,
+      "emoji": "🧱"
+    },
+    {
+      "id": 2,
+      "active": true,
+      "soldCount": 0,
+      "createdAt": 1791631034291,
+      "name": "Sement M400",
+      "category": "Quruq qorishmalar",
+      "unit": "kg",
+      "packSize": 50,
+      "packLabel": "qop",
+      "price": 62000,
+      "restockCost": 48000,
+      "stock": 60,
+      "minStock": 15,
+      "leadHours": 4,
+      "emoji": "🏗️"
+    },
+    {
+      "id": 3,
+      "active": true,
+      "soldCount": 1,
+      "createdAt": 1791631034291,
+      "name": "Gips shpaklyovka",
+      "category": "Quruq qorishmalar",
+      "unit": "kg",
+      "packSize": 25,
+      "packLabel": "qop",
+      "price": 55000,
+      "restockCost": 42000,
+      "stock": 29,
+      "minStock": 8,
+      "leadHours": 3,
+      "emoji": "⬜"
+    },
+    {
+      "id": 4,
+      "active": true,
+      "soldCount": 0,
+      "createdAt": 1791631034291,
+      "name": "Plitka yelimi",
+      "category": "Yelim va gruntovka",
+      "unit": "kg",
+      "packSize": 25,
+      "packLabel": "qop",
+      "price": 45000,
+      "restockCost": 34000,
+      "stock": 25,
+      "minStock": 8,
+      "leadHours": 4,
+      "emoji": "🔲"
+    },
+    {
+      "id": 5,
+      "active": true,
+      "soldCount": 0,
+      "createdAt": 1791631034291,
+      "name": "Yuvilgan qum",
+      "category": "Quruq qorishmalar",
+      "unit": "kg",
+      "packSize": 50,
+      "packLabel": "qop",
+      "price": 12000,
+      "restockCost": 8000,
+      "stock": 100,
+      "minStock": 20,
+      "leadHours": 3,
+      "emoji": "🏖️"
+    },
+    {
+      "id": 6,
+      "active": true,
+      "soldCount": 0,
+      "createdAt": 1791631034291,
+      "name": "Suv emulsiyali bo'yoq (oq)",
+      "category": "Bo'yoq va lak",
+      "unit": "litr",
+      "packSize": 10,
+      "packLabel": "chelak",
+      "price": 180000,
+      "restockCost": 135000,
+      "stock": 12,
+      "minStock": 4,
+      "leadHours": 4,
+      "emoji": "🎨"
+    },
+    {
+      "id": 7,
+      "active": true,
+      "soldCount": 3,
+      "createdAt": 1791631034291,
+      "name": "Gruntovka",
+      "category": "Yelim va gruntovka",
+      "unit": "litr",
+      "packSize": 10,
+      "packLabel": "kanistra",
+      "price": 95000,
+      "restockCost": 70000,
+      "stock": 20,
+      "minStock": 4,
+      "leadHours": 3,
+      "emoji": "🧴"
+    },
+    {
+      "id": 8,
+      "active": true,
+      "soldCount": 0,
+      "createdAt": 1791631034291,
+      "name": "Parket laki",
+      "category": "Bo'yoq va lak",
+      "unit": "litr",
+      "packSize": 5,
+      "packLabel": "banka",
+      "price": 150000,
+      "restockCost": 110000,
+      "stock": 0,
+      "minStock": 3,
+      "leadHours": 4,
+      "emoji": "🪵"
+    },
+    {
+      "id": 9,
+      "active": true,
+      "soldCount": 0,
+      "createdAt": 1791631034291,
+      "name": "Dyubel",
+      "category": "Metiz",
+      "unit": "dona",
+      "packSize": 100,
+      "packLabel": "quti",
+      "price": 25000,
+      "restockCost": 17000,
+      "stock": 50,
+      "minStock": 10,
+      "leadHours": 3,
+      "emoji": "🔩"
+    },
+    {
+      "id": 10,
+      "active": true,
+      "soldCount": 0,
+      "createdAt": 1791631034291,
+      "name": "Armatura 12 mm",
+      "category": "Metall",
+      "unit": "metr",
+      "packSize": 12,
+      "packLabel": "dona",
+      "price": 96000,
+      "restockCost": 75000,
+      "stock": 80,
+      "minStock": 20,
+      "leadHours": 4,
+      "emoji": "⚙️"
+    },
+    {
+      "id": 11,
+      "active": true,
+      "soldCount": 0,
+      "createdAt": 1791633111976,
+      "name": "RoteBond",
+      "category": "Quruq qorishmalar",
+      "unit": "kg",
+      "packSize": 25,
+      "packLabel": "qop",
+      "price": 40000,
+      "restockCost": 28000,
+      "stock": 7,
+      "minStock": 3,
+      "leadHours": 1,
+      "emoji": "📦"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "code": "B-0001",
+      "userId": 2,
+      "userName": "Demo Mijoz",
+      "phone": "+998901234567",
+      "items": [
+        {
+          "productId": 7,
+          "name": "10 litr Gruntovka",
+          "category": "Yelim va gruntovka",
+          "unit": "litr",
+          "packSize": 10,
+          "packLabel": "kanistra",
+          "qty": 3,
+          "price": 95000,
+          "cost": 70000
+        }
+      ],
+      "subtotal": 285000,
+      "discount": 0,
+      "promo": null,
+      "deliveryFee": 49600,
+      "total": 334600,
+      "payment": "naqd",
+      "delivery": {
+        "type": "yetkazish",
+        "address": "Мирзо Турсунзаде улица, Совхоз Узгарыш, Sergeli tumani, Toshkent, 100000, Oʻzbekiston",
+        "lat": 41.213544,
+        "lng": 69.214473,
+        "km": 9.8
+      },
+      "status": "Yangi",
+      "createdAt": 1791631726809,
+      "history": [
+        {
+          "status": "Yangi",
+          "at": 1791631726809
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "B-0002",
+      "userId": 2,
+      "userName": "Demo Mijoz",
+      "phone": "+998901234567",
+      "items": [
+        {
+          "productId": 3,
+          "name": "25 kg Gips shpaklyovka",
+          "category": "Quruq qorishmalar",
+          "unit": "kg",
+          "packSize": 25,
+          "packLabel": "qop",
+          "qty": 1,
+          "price": 55000,
+          "cost": 42000
+        }
+      ],
+      "subtotal": 55000,
+      "discount": 0,
+      "promo": null,
+      "deliveryFee": 0,
+      "total": 55000,
+      "payment": "payme",
+      "delivery": {
+        "type": "olib ketish",
+        "address": "",
+        "lat": null,
+        "lng": null,
+        "km": null
+      },
+      "status": "Yangi",
+      "createdAt": 1791631803052,
+      "history": [
+        {
+          "status": "Yangi",
+          "at": 1791631803052
+        }
+      ]
+    }
+  ],
+  "restocks": [
+    {
+      "id": 1,
+      "code": "T-0001",
+      "productId": 8,
+      "productName": "5 litr Parket laki",
+      "packLabel": "banka",
+      "unit": "litr",
+      "packs": 10,
+      "totalAmount": 50,
+      "unitCost": 110000,
+      "total": 1100000,
+      "orderedAt": 1791631914758,
+      "expectedAt": 1791646314758,
+      "status": "Yo'lda"
+    },
+    {
+      "id": 2,
+      "code": "T-0002",
+      "productId": 7,
+      "productName": "10 litr Gruntovka",
+      "packLabel": "kanistra",
+      "unit": "litr",
+      "packs": 20,
+      "totalAmount": 200,
+      "unitCost": 70000,
+      "total": 1400000,
+      "orderedAt": 1791631968915,
+      "expectedAt": 1791718368915,
+      "status": "Qabul qilingan",
+      "receivedAt": 1791631987693
+    },
+    {
+      "id": 3,
+      "code": "T-0003",
+      "productId": 11,
+      "productName": "25 kg RoteBond",
+      "packLabel": "qop",
+      "unit": "kg",
+      "packs": 10,
+      "totalAmount": 250,
+      "unitCost": 28000,
+      "total": 280000,
+      "orderedAt": 1791633174122,
+      "expectedAt": 1791636774122,
+      "status": "Yo'lda"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "type": "deposit",
+      "amount": 10000000,
+      "note": "Boshlang'ich kassa",
+      "balanceAfter": 10000000,
+      "at": 1791631034291
+    },
+    {
+      "id": 2,
+      "type": "sale",
+      "amount": 334600,
+      "note": "Sotuv: B-0001 (Demo Mijoz)",
+      "balanceAfter": 10334600,
+      "at": 1791631726810,
+      "orderId": 1
+    },
+    {
+      "id": 3,
+      "type": "sale",
+      "amount": 55000,
+      "note": "Sotuv: B-0002 (Demo Mijoz)",
+      "balanceAfter": 10389600,
+      "at": 1791631803052,
+      "orderId": 2
+    },
+    {
+      "id": 4,
+      "type": "restock",
+      "amount": -1100000,
+      "note": "Ta'minot: T-0001 5 litr Parket laki x10",
+      "balanceAfter": 9289600,
+      "at": 1791631914758,
+      "restockId": 1
+    },
+    {
+      "id": 5,
+      "type": "restock",
+      "amount": -1400000,
+      "note": "Ta'minot: T-0002 10 litr Gruntovka x20",
+      "balanceAfter": 7889600,
+      "at": 1791631968915,
+      "restockId": 2
+    },
+    {
+      "id": 6,
+      "type": "restock",
+      "amount": -280000,
+      "note": "Ta'minot: T-0003 25 kg RoteBond x10",
+      "balanceAfter": 7609600,
+      "at": 1791633174122,
+      "restockId": 3
+    }
+  ],
+  "promos": [
+    {
+      "code": "QURILISH10",
+      "type": "percent",
+      "value": 10,
+      "minTotal": 200000,
+      "maxUses": 100,
+      "usedCount": 0,
+      "expiresAt": null,
+      "active": true
+    }
+  ],
+  "settings": {
+    "storeName": "Qurilish Do'koni",
+    "phone": "+998 71 200 00 00",
+    "address": "Toshkent shahri",
+    "deliveryFee": 30000,
+    "freeDeliveryFrom": 1000000,
+    "storeLat": 41.2995,
+    "storeLng": 69.2401,
+    "deliveryPerKm": 2000,
+    "maxDeliveryKm": 40
+  },
+  "cash": {
+    "balance": 7609600
+  },
+  "counters": {
+    "user": 2,
+    "product": 11,
+    "order": 2,
+    "restock": 3,
+    "tx": 6
+  },
+  "meta": {
+    "leadV3": true
+  }
+}
