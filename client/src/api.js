@@ -9,7 +9,7 @@ async function req(method, url, body) {
   if (getToken()) headers.Authorization = 'Bearer ' + getToken();
   let res;
   try {
-    res = await fetch('/api' + url, { method, headers, body: body ? JSON.stringify(body) : undefined });
+    res = await fetch('https://winter-near.onrender.com/api' + url, { method, headers, body: body ? JSON.stringify(body) : undefined });
   } catch {
     throw new Error("Serverga ulanib bo'lmadi. Backend ishlayotganini tekshiring");
   }

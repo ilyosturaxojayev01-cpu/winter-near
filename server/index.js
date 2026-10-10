@@ -5,22 +5,29 @@
      logs.jsonl     - barcha harakatlar jurnali (log)
      backups/       - har kuni avtomatik zaxira nusxa
    =================================================================== */
-const express = require('express');
-const cors = require('cors');
-const crypto = require('crypto');
-const fs = require('fs');
-const path = require('path');
+  const express = require('express');
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://winter-near.netlify.app"
+  ],
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
+  const crypto = require('crypto');
+  const fs = require('fs');
+  const path = require('path');
 
-const PORT = process.env.PORT || 5000;
-const DATA_DIR = path.join(__dirname, 'data');
-const BACKUP_DIR = path.join(DATA_DIR, 'backups');
-const DB_FILE = path.join(DATA_DIR, 'db.json');
-const LOG_FILE = path.join(DATA_DIR, 'logs.jsonl');
-const SECRET_FILE = path.join(DATA_DIR, 'secret.key');
-const TZ = 5; // O'zbekiston vaqt zonasi (UTC+5)
-const STATUSES = ['Yangi', 'Tayyorlanmoqda', "Yo'lda", 'Yetkazildi', 'Bekor qilingan'];
+  const PORT = process.env.PORT || 5000;
+  const DATA_DIR = path.join(__dirname, 'data');
+  const BACKUP_DIR = path.join(DATA_DIR, 'backups');
+  const DB_FILE = path.join(DATA_DIR, 'db.json');
+  const LOG_FILE = path.join(DATA_DIR, 'logs.jsonl');
+  const SECRET_FILE = path.join(DATA_DIR, 'secret.key');
+  const TZ = 5; // O'zbekiston vaqt zonasi (UTC+5)
+  const STATUSES = ['Yangi', 'Tayyorlanmoqda', "Yo'lda", 'Yetkazildi', 'Bekor qilingan'];
 
-fs.mkdirSync(BACKUP_DIR, { recursive: true });
+  fs.mkdirSync(BACKUP_DIR, { recursive: true });
 
 /* ---------------- Xavfsizlik: parol va token ---------------- */
 if (!fs.existsSync(SECRET_FILE)) fs.writeFileSync(SECRET_FILE, crypto.randomBytes(32).toString('hex'));
